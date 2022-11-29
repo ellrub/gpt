@@ -1,8 +1,8 @@
 import React from 'react';
 
 import "./App.scss";
-import { Header, Navbar } from './components';
-import Equality from './container/Equality';
+import { Footer, Header, Navbar } from './components';
+import { Change, Equality, Leaders }  from './container';
 
 const App = () => {
     return (
@@ -15,6 +15,9 @@ const App = () => {
         </video>
       </Header>
       <Equality />
+      <Change />
+      <Leaders />
+      <Footer />
     </div>
     );
 }
