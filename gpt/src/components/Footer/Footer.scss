@@ -1,0 +1,111 @@
+footer {
+    background-image: url(https://girlpowertalk.com/wp-content/uploads/2022/02/GPT-Footer-Background-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    img {
+        width: 87%;
+        margin: 0 auto;
+        display: block;
+        padding: 2rem 0;
+    }
+
+    p {
+        padding: 0.3rem 1rem;
+
+        color: whitesmoke;
+        font-size: 0.8rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.03rem;
+        text-align: justify;
+    }
+
+    h3 {
+        color: whitesmoke;
+        font-family: var(--font-footer);
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        padding-bottom: 0.6rem;
+        font-size: 0.9rem;
+    }
+
+    .footer__copy {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .footer__container {
+        padding: 0 1rem;
+
+        a {
+            font-size: 1.2rem;
+        }
+
+        .footer__container-top {
+            display: flex;
+
+            .footer__container-top--about {
+
+            }
+
+            .footer__container-top--team {
+                margin-left: 5rem;
+            }
+        }
+
+        .footer__container-bot {
+            display: flex;
+            margin-top: 2rem;
+
+            .footer__container-bot--company {
+
+            }
+
+            .footer__container-bot--buttons {
+                text-align: center;
+                margin-left: 0.4rem;
+                
+                .apply {
+                    background-color: #FF4C5A;
+                    font-size: 0.9rem;
+                    padding: 0.6rem 2.2rem;
+                    border-radius: 2px;
+                }
+
+                .contact {
+                    background-color: whitesmoke;
+                    font-size: 0.9rem;
+                    color: black;
+                    padding: 0.6rem 2.2rem;
+                    margin-top: 1.2rem;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+
+    .footer__devider {
+        background-image: url(https://girlpowertalk.com/wp-content/uploads/2021/10/Rectangle-76.png);
+        height: 10px;
+
+        margin: 4rem 1rem 1rem 1rem;
+    }
+
+    .footer__container-icons {
+        text-align: center;
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+
+        a {
+            padding: 0.3rem;
+            font-size: 1.2rem;
+        }
+    }
+}
