@@ -1,0 +1,21 @@
+section {
+    padding-top: 2rem;
+    background-color: rgba(119, 148, 168, 0.322);
+
+    h2 {
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 2rem;
+        padding: 1rem 0.9rem;
+        text-align: justify;
+
+        letter-spacing: 0.04rem;
+        word-wrap: break-word;
+        span {
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+header {
+    background-color: var(--light-red);
+
+    video {
+        mix-blend-mode: multiply;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+        color: #e96363;
+
+        padding: 1rem 0;
+    }
+}
