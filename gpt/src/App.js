@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./App.scss";
-import { Footer, Header, Navbar } from './components';
+import { Footer, Header, Map, Navbar } from './components';
 import { Change, Equality, Leaders }  from './container';
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
       <Equality />
       <Change />
       <Leaders />
+      <Map />
       <Footer />
     </div>
     );
