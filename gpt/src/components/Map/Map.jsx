@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
 import WorldMap, { Marker } from "react-map-gl";
 import 'mapbox-gl/dist/mapbox-gl.css';
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 import "./Map.scss";
 import leaderData from "../../data/features.json"
 
 function Map() {
-    const [lng, setLng] = useState(54.37585762735543);
-    const [lat, setLat] = useState(24.45677614934833);
+    const [lng, setLng] = useState(7);
+    const [lat, setLat] = useState(25);
 
     return (
         <div>
             <WorldMap
                 mapboxAccessToken='pk.eyJ1IjoicnViYmFkZXYiLCJhIjoiY2xiM2xkNXFxMDFlbjN2cGRxMW11dHQ0aSJ9.4RJbOwmSiqVqHwo1wttdCw'
+                mapStyle="mapbox://styles/rubbadev/clb3je7m6000b14n9tw6a4dvn"
                 style={{
                     width: "100vw",
                     height: "50vw",
@@ -21,7 +23,6 @@ function Map() {
                     longitude: lng,
                     latitude: lat,
                 }}
-                mapStyle="mapbox://styles/mapbox/streets-v9"
             >
                 {leaderData.features.map((country) => (
                     <Marker 
@@ -29,7 +30,7 @@ function Map() {
                         latitude={country.geometry.coordinates[1]}
                         longitude={country.geometry.coordinates[0]}                        
                         >
-                        <div>TESTING</div>
+                        <FaMapMarkerAlt />
                     </Marker>
                 ))}
             </WorldMap>
