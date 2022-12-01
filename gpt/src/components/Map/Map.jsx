@@ -7,8 +7,8 @@ import "./Map.scss";
 import markerData from "../../data/markerData.json"
 
 function Map() {
-    const [lng, setLng] = useState(7);
-    const [lat, setLat] = useState(25);
+    const [lng, setLng] = useState(24);
+    const [lat, setLat] = useState(-4);
 
     const [selectedCountry, setSelectedCountry] = useState(null);
 
@@ -19,7 +19,10 @@ function Map() {
                 mapStyle="mapbox://styles/rubbadev/clb3je7m6000b14n9tw6a4dvn"
                 style={{
                     width: "100vw",
+                    
                     height: "50vw",
+                    maxHeight: "450px",
+                    zoom: 1
                 }}
                 initialViewState={{
                     longitude: lng,

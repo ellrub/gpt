@@ -6,8 +6,8 @@ import { Section } from '../components';
 const Leaders = () => {
     return (
     <Section>
+        <h2>Become tomorrow's leader</h2>
         <div className='section__leaders'>
-            <h2>Become tomorrow's leader</h2>
             <p><span>No bosses.</span><br /> At Girl Power Talk everyone is equal, this means that there are no bosses or managers.
                 Instead we have dedicated mentors that help guide our young leaders. We encourage you to try, to fail and learn, 
                 and also to work accross departments. So if you dont want to be employee number thousand, but instead be part 
@@ -20,6 +20,7 @@ const Leaders = () => {
                 className='leaders__img'
                 />
         </div>
+        <h2>Our young leaders are from all over the world</h2>
     </Section>
 )}
 
