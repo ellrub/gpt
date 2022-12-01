@@ -7,8 +7,8 @@ import "./Map.scss";
 import markerData from "../../data/markerData.json"
 
 function Map() {
-    const [lng, setLng] = useState(24);
-    const [lat, setLat] = useState(-4);
+    const [lng, setLng] = useState(10);
+    const [lat, setLat] = useState(20);
 
     const [selectedCountry, setSelectedCountry] = useState(null);
 
