@@ -1,4 +1,12 @@
-.map__container {
-    width: 100vw;
-    height: 50vw;
+.map__marker {
+    color: rgb(82, 5, 207);
+    font-size: 1rem;
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        font-size: 1.4rem;
+        transform: translateY(-0.25rem);
+        box-shadow : 0px 5px 4px -5px black;
+    }
 }

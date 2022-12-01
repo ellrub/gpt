@@ -2,6 +2,7 @@
   "features": [
     {
       "type": "Feature",
+      "location": "Jamaica",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -14,6 +15,7 @@
     },
     {
       "type": "Feature",
+      "location": "Kenya",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -26,6 +28,7 @@
     },
     {
       "type": "Feature",
+      "location": "Sri Lanka",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -38,6 +41,7 @@
     },
     {
       "type": "Feature",
+      "location": "Vietnam",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -50,6 +54,7 @@
     },
     {
       "type": "Feature",
+      "location": "Zimbabwe",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -62,6 +67,7 @@
     },
     {
       "type": "Feature",
+      "location": "Indonesia",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -74,6 +80,7 @@
     },
     {
       "type": "Feature",
+      "location": "Canada",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -86,6 +93,7 @@
     },
     {
       "type": "Feature",
+      "location": "Malaysia",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -98,6 +106,7 @@
     },
     {
       "type": "Feature",
+      "location": "Spain",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -110,6 +119,7 @@
     },
     {
       "type": "Feature",
+      "location": "India",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -122,6 +132,7 @@
     },
     {
       "type": "Feature",
+      "location": "Paraguay",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -134,6 +145,7 @@
     },
     {
       "type": "Feature",
+      "location": "Norway",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -146,6 +158,7 @@
     },
     {
       "type": "Feature",
+      "location": "Sweeden",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -158,6 +171,7 @@
     },
     {
       "type": "Feature",
+      "location": "Finland",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -170,6 +184,7 @@
     },
     {
       "type": "Feature",
+      "location": "Brazil",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -182,6 +197,7 @@
     },
     {
       "type": "Feature",
+      "location": "England",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -194,6 +210,7 @@
     },
     {
       "type": "Feature",
+      "location": "Scotland",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -206,6 +223,7 @@
     },
     {
       "type": "Feature",
+      "location": "Wales",
       "properties": {},
       "geometry": {
         "coordinates": [
