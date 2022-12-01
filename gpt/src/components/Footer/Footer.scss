@@ -3,13 +3,17 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    padding: 0 2rem;
+
+    @media screen and (max-width: 408px) {    
+        padding: 0 0.5rem;
+    }
 
     img {
         width: 87%;
+        max-width: 450px;
         margin: 0 auto;
-        display: block;
-        padding: 2rem 0;
+        padding: 2rem 1rem;
     }
 
     p {
@@ -41,55 +45,112 @@ footer {
         font-size: 0.9rem;
     }
 
-    .footer__container {
-        padding: 0 1rem;
+    .footer {
 
-        a {
-            font-size: 1.2rem;
-        }
-
-        .footer__container-top {
+        @media screen and (min-width: 1025px) {    
+            
             display: flex;
+            justify-content: space-between;
+        }
+    
+        .footer__div {
 
-            .footer__container-top--about {
-
-            }
-
-            .footer__container-top--team {
-                margin-left: 5rem;
+            @media screen and (min-width: 1025px) {    
+                max-width: 590px;
             }
         }
-
-        .footer__container-bot {
-            display: flex;
-            margin-top: 2rem;
-
-            .footer__container-bot--company {
-
+    
+        .footer__container {
+            padding: 0 1rem;            
+    
+            @media screen and (min-width: 768px) {
+                display: flex;
+                justify-content: space-between;
+    
+                margin-top: 2rem;
             }
 
-            .footer__container-bot--buttons {
-                text-align: center;
-                margin-left: 0.4rem;
+            @media screen and (min-width: 1025px) {    
+                padding-right: 0;
+                justify-content: space-around;
+                flex-grow: 1;
                 
-                .apply {
-                    background-color: #FF4C5A;
-                    font-size: 0.9rem;
-                    padding: 0.6rem 2.2rem;
-                    border-radius: 2px;
-                }
+            }
+    
+            a {
+                font-size: 1.2rem;
+            }
+    
+            .footer__container-top {
+                display: flex;
+                justify-content: space-between;
+                flex-grow: 1;
+                
+                max-width: 450px;
 
-                .contact {
-                    background-color: whitesmoke;
-                    font-size: 0.9rem;
-                    color: black;
-                    padding: 0.6rem 2.2rem;
-                    margin-top: 1.2rem;
-                    border-radius: 2px;
+                @media screen and (min-width: 1025px) {    
+                    min-width: 250px;
+                }
+    
+                .footer__container-top--team {
+                    margin-left: 5rem;
+
+                    @media screen and (min-width: 1025px) {    
+                        margin-left: 3rem;
+                    }
                 }
             }
+    
+            .footer__container-bot {
+                display: flex;
+                justify-content: space-between;
+                flex-grow: 1;
+    
+                margin-top: 2rem;          
+                max-width: 550px;
+        
+                @media screen and (min-width: 768px) {    
+                    margin-top: 0;
+                    margin-left: 3rem;
+                }
+
+                @media screen and (min-width: 1025px) {    
+                    min-width: 340px;
+                }
+    
+                .footer__container-bot--buttons {
+                    text-align: center;
+                    margin-left: 0.4rem;
+    
+                    @media screen and (min-width: 768px) {        
+                        margin-left: 2rem;
+                        margin-top: 1rem;
+                    }
+                    
+                    .apply {
+                        background-color: #FF4C5A;
+                        font-size: 0.9rem;
+                        padding: 0.6rem 2.2rem;
+                        border-radius: 2px;
+                    }
+    
+                    .contact {
+                        background-color: whitesmoke;
+                        font-size: 0.9rem;
+                        color: black;
+                        padding: 0.6rem 2.2rem;
+                        margin-top: 1.2rem;
+                        border-radius: 2px;
+                    }
+                }
+            }
+        }
+
+        @media screen and (min-width: 1025px) {    
+            display: flex;
         }
     }
+
 
     .footer__devider {
         background-image: url(https://girlpowertalk.com/wp-content/uploads/2021/10/Rectangle-76.png);
@@ -108,4 +169,5 @@ footer {
             font-size: 1.2rem;
         }
     }
+    
 }
