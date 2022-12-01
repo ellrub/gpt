@@ -16,7 +16,7 @@ function Map() {
         <div className='worldmap'>
             <WorldMap
                 mapboxAccessToken='pk.eyJ1IjoicnViYmFkZXYiLCJhIjoiY2xiM2xkNXFxMDFlbjN2cGRxMW11dHQ0aSJ9.4RJbOwmSiqVqHwo1wttdCw'
-                mapStyle="mapbox://styles/rubbadev/clb51vw4u001614s301idbklv"
+                mapStyle="mapbox://styles/rubbadev/clb3je7m6000b14n9tw6a4dvn"
                 style={{
                     width: "100vw",
                     height: "50vw",
