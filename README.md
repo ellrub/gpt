@@ -21,3 +21,4 @@ Here is a summary of what the assignment looked like:
  
  ## ToDop
  - On pin hover, show a popup with name of country, flag and the leaders who comes from that country
+ - Some refactoring is needed
